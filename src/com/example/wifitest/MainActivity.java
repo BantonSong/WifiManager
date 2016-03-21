@@ -1,5 +1,9 @@
 package com.example.wifitest;
 
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
@@ -30,5 +34,10 @@ public class MainActivity extends Activity {
 				wifiAdmin.closeWifi();
 			}
 		});
+	}
+	
+	@Test
+	public void testName() throws Exception {
+		
 	}
 }
